@@ -16,16 +16,18 @@ nav {
     display: flex;
     justify-content: space-between;
 margin: 50px 200px;
-background: red;
 }
 
-nav ul {
+.ul {
     display: flex;
     justify-content: space-between;
+    width: 20vw;
+    margin-top: 1.8rem;
 }
 
 nav li {
     list-style: none;
+
 }
 
 .text-color {
