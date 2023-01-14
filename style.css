@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
-    padding: 0; 
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
-    
+
 }
 
-body{
+body {
     background: rgb(243, 233, 229);
 }
 
@@ -13,14 +13,14 @@ body{
 
 .nav-name {
     font-weight: 800;
-   font-size: 45px;
-    
+    font-size: 45px;
+
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-margin: 50px 200px;
+    margin: 50px 200px;
 }
 
 .ul {
@@ -40,39 +40,40 @@ nav li {
 }
 
 .btn-primary {
-color: white;
-height: 2rem;
-font-weight: 700;
-font-size: 20px;
-background: #ffae00;
-border: 0;
-border-radius: 5px;
-border: 1px solid black;
-box-shadow: 2px 2px rgba(35, 35, 35, 0.324);
+    color: white;
+    height: 2rem;
+    font-weight: 700;
+    font-size: 20px;
+    background: #ff8000;
+    border: 0;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px rgba(35, 35, 35, 0.324);
+    padding: 0 1rem;
 
 }
 
 /* banner styles */
-.banner{
-margin: 0 200px;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-/* width: 80vw; */
+.banner {
+    margin: 0 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* width: 80vw; */
 }
 
-.banner-title{
-font-weight: 700;
-font-size: 85px;
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
 }
 
-.banner-sub-title{
+.banner-sub-title {
     font-weight: 600;
     font-size: 45px;
 }
 
-.banner-description{
+.banner-description {
     margin-top: 20px;
     color: rgb(121, 121, 121);
     font-size: 18px;
@@ -83,12 +84,12 @@ font-size: 85px;
     background: rgb(249, 221, 203);
     background-image: url('images/header_bg.png');
     background-repeat: no-repeat;
-   background-position: bottom right;
-   margin-bottom: 100px;
+    background-position: bottom right;
+    margin-bottom: 100px;
 }
 
 
-.banner-image img{
+.banner-image img {
     height: 100vh;
     object-fit: cover;
     bottom: 0;
@@ -99,31 +100,34 @@ font-size: 85px;
 
 
 /* about section style */
-.about-me{
+.about-me {
 
     max-width: 80vw;
     margin: auto;
     background: rgb(237, 221, 212);
     text-align: center;
-    margin-bottom: 500px;
+    margin-bottom: 100px;
 }
-.about-me h3{
+
+.about-me h3 {
     text-align: center;
     font-weight: 700;
     font-size: 35px;
     margin-bottom: 30px;
     padding-top: 2rem;
 }
+
 .about-me p {
-    color:rgb(55, 55, 55) ;
+    color: rgb(55, 55, 55);
     font-size: 18px;
-    
-}
-.about-me {
-    padding: 0 60px 40px  60px;
+
 }
 
-.about-info-chart{
+.about-me {
+    padding: 0 60px 40px 60px;
+}
+
+.about-info-chart {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
@@ -132,10 +136,222 @@ font-size: 85px;
 
 .info-title {
     font-size: 20px;
-    color:rgb(83, 83, 83) ;
+    color: rgb(83, 83, 83);
 }
 
-.info-description{
+.info-description {
     font-weight: bold;
     font-size: 25px;
 }
+
+/* what i do */
+
+.what-i-do {
+    max-width: 75vw;
+    margin: auto;
+    text-align: center;
+}
+
+.what-i-do h3 {
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.what-i-do-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+
+}
+
+.cards {
+    background: white;
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.146);
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+
+.cards img {
+    width: 2.7rem;
+    align-self: center;
+    margin: 20px 0;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-description {
+    color: rgb(73, 73, 73);
+    padding: 30px;
+}
+
+/* resume */
+.resume {
+
+    text-align: left;
+    max-width: 70vw;
+    margin: auto;
+    /* text-align: center; */
+
+}
+
+.resume-title {
+    margin: 5rem 0 3rem 0;
+    text-align: center;
+}
+
+.bold {
+    color: rgb(31, 31, 31);
+    font-weight: bolder;
+}
+
+.lite {
+    color: rgb(74, 74, 74);
+    font-weight: bold;
+
+}
+
+.resume-now {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-cards {
+    margin: 30px 0;
+    padding: 0 7rem;
+
+}
+
+.resume-cards h3 {
+    margin-bottom: 15px;
+}
+
+.resume-sections:nth-child(1) {
+    margin-bottom: 1px solid black;
+}
+
+.btn-resume {
+    margin-top: 50px;
+    transform: translate(30vw);
+}
+
+/* 
+.resume-title{
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.resume-head{
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+    border-bottom: 1px solid rgb(133, 133, 133);
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+
+.r-h-bold{
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem 0 .5rem 0;
+    color: rgb(47, 47, 47);
+    text-align: center;
+
+}
+
+.r-h-description{
+    padding: 0 4rem;
+    color: rgb(105, 105, 105);
+    text-align: center;
+} */
+
+/* .resume-body{
+    display: flex;
+    justify-content: space-between;
+  
+    text-align: center;
+    gap: 6rem;
+    margin: 3rem 0 4rem 0;
+
+}
+
+.double-section{
+    display: flex;
+    flex-direction: column;
+    max-width: 80vw;
+    margin: auto;
+} */
+
+/* .d-d-h3{
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 2rem;
+} */
+
+/* .d-d-p-bold{
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem 0 .5rem 0;
+    color: rgb(100, 100, 100);
+    text-align: center;
+}
+
+.d-d-p-description{
+    padding: 0 4rem;
+    color: rgb(105, 105, 105);
+    text-align: center;
+} */
+
+
+
+
+
+
+/* contact */
+.contact {
+
+   display: flex;
+   justify-content: space-between;
+   max-width: 80vw;
+   margin:5rem auto;
+   /* gap: 7rem; */
+
+}
+
+.info {
+    width: 30vw;
+}
+
+.info p{
+    margin: 1rem 0;
+    color: rgb(70, 70, 70);
+
+}
+
+.form {
+    width: 20vw;
+}
+
+.form input[type="email"],input[type="text"],textarea {
+    width: 100%;
+    margin: .5rem 0;
+}
+
+/* #submit{
+    max-width: 6rem;
+} */
